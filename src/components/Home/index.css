@@ -1,0 +1,35 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+}
+
+.dark-theme-bg {
+  background-color: #000000;
+}
+
+.light-theme-bg {
+  background-color: #ffffff;
+}
+
+.home-image {
+  width: 120px;
+  height: 110px;
+}
+
+.home-title {
+  font-family: 'roboto';
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.dark-theme-title {
+  color: #ffffff;
+}
+
+.light-theme-title {
+  color: #171f46;
+}
